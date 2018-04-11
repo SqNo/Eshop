@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<!-- Métadonnées -->
+	<meta charset="utf-8" />
+	<title>Bandeau</title>
+	<meta name="Projet" content="Carglass" />
+	<!-- <meta name="keywords" content="mot clé, mots" /> -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+	<!-- JS -->
+</head>
+<body>
+	<div class="container">
+		<div class="col-12" style="text-align: center;">
+			<h1> Contactez-nous</h1>
+			<p style="text-align:left;">Vous n'avez pas trouvé ce que vous cherchiez dans la grille ci-dessus, dans la page FAQ, dans la page FAQ du programme de fidélité, dans notre moteur de recherche ou plus globalement sur notre site, vous avez une précision à demander, une réclamation ou une suggestion à faire... </br><br>
+N'hésitez pas a nous contacter en utilisant le formulaire ci-dessous. 
+			</p>
+		</div>
+		<form style="padding-top: 70px;">
+			<div style="height: 30px;" >
+				<label class="cont">
+				<input type="radio" checked="checked" name="radio">
+				<span class="checkmark">Monsieur</span>
+				</label>
+				<label class="cont" style="text-align: center">
+				<input type="radio" name="radio">
+				<span class="checkmark">Madame</span>
+				</label>
+			</div>
+			<div class="row formLine" style="padding-top: 30px;">
+				<div class="col-3 contactTitle">
+					<label for="name">Nom</label>
+				</div>
+				<div class="col-9">
+					<input type="text" class="myForm" id="name">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="prenom">Prenom</label>
+				</div>
+				<div class="col-9">
+					<input type="text" class="myForm" id="prenom">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="mail">Mail</label>
+				</div>
+				<div class="col-9">
+					<input type="email" class="myForm" id="mail">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="tel">Telephone</label>
+				</div>
+				<div class="col-9">
+					<input type="email" class="myForm" id="tel" placeholder="ex : +336 00 00 00 00 ">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="adresse">Adresse</label>
+				</div>
+				<div class="col-9">
+					<textarea class="myForm" rows="3" id="adresse"> </textarea>
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="cp">Code postal</label>
+				</div>
+				<div class="col-9">
+					<input type="email" class="myForm" id="cp">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="ville">Ville</label>
+				</div>
+				<div class="col-9">
+					<input type="email" class="myForm" id="ville">
+				</div> 
+			</div>
+			<div class="row formLine">
+				<div class="col-3 contactTitle">
+					<label for="msg">Votre message</label>
+				</div>
+				<div class="col-9">
+					<textarea class="myForm" rows="3" id="msg" > </textarea>
+				</div> 
+			</div>
+			<div class="row formLine">
+			<div class="col-12 validate">
+					<input type="submit">
+				</div> 
+			</div>
+		</form>
+	</div>
+	
+</body>
+</html>

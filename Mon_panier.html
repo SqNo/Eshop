@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<!-- Métadonnées -->
+	<meta charset="utf-8" />
+	<title>Panier</title>
+	<meta name="Projet" content="Carglass" />
+	<!-- <meta name="keywords" content="mot clé, mots" /> -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+	<!-- JS -->
+</head>
+<body style="box-sizing: border-box;">
+
+	<div class="container" id="panierContainer">
+		<div class="row">
+			<div class="col-12"><h1 id="panierTitle">Mon Panier</h1></div>
+		</div>
+		<div class="row panierArticle">
+			<div class="col-2">
+				<img src="article.jpg"/>
+			</div>
+			<div class="col-6">
+				<span class="productRef">Réf. 1232387</span>
+				<p> Carrelage sols ATLANTA nuancé satiné 40,8 x 40,8 cm</p>
+				<p>Carrelage ATLANTA taupe 40.8x40.8 ép.8.5.mm aspect naturel, Finition : Taupe naturel</p>	
+				<p>1 Boite (soit 1 m²)</p>
+			</div>
+			<div class="col-4">
+				<div class="btn-group" role="group" aria-label="Basic example" style="padding-top: 15%; padding-left: 30%;">
+						<button id="moins" type="button" class="btn btn-secondary light">-</button>
+						<input type="tel" id="number" value="1" disabled="disabled" style="width: 50px; text-align:center; padding-top: 12px;"></input>
+						<button id="plus" type="button" class="btn btn-secondary light">+</button> <br/>
+				</div>
+				<p style="text-align:center; padding-right: 10px;"> virer </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6 paiement offset-6">
+				<div id="totalSum"> 
+					<p>TOTAL TTC: INCLUDE JS HERE</p>
+				</div>
+				<div class="text-center"> 
+					<button id="pay" style="width: 90%; margin-top: 30px;"> Valider votre commande </button>
+				</div>
+			<div class="cards text-center" style="margin: 35px 0px;">
+				<p>Moyen de paiement accepté : </p>
+				<img src="cards.png"/>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+ <script type="text/javascript" src="quantity.js"></script>
+</html>

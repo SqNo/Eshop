@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>	
+	<!-- Métadonnées -->
+	<meta charset="utf-8" />
+	<title>Fiche produit</title>
+	<meta name="Projet" content="Carglass" />
+	<!-- <meta name="keywords" content="mot clé, mots" /> -->
+	<!-- CSS -->
+	<link rel="stylesheet" href="./Bootstrap/css/bootstrap.css" />
+	
+	<!-- JS -->
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-2 imageBox"> 
+				<div class="images"><img class="image" src="produit1.jpg"/></div>
+				<div class="images" style="margin-top: 5px;"><img class="image" src="produit2.jpg"/></div>
+				<div class="images" style="margin-top: 5px;"><img class="image" src="produit3.jpg"/></div>
+				<div class="images" style="margin-top: 5px;"><img class="image" src="produit4.jpg"/></div>
+			</div>
+			<div class="col-4 grandeImage">
+				<img src="produit1.jpg" id="big"/>	
+			</div>
+			<div class="col-6 boxProduit"> 
+				<div class="row">
+					<div class="productRef">ref de l'article #13547</div>
+				</div>
+				<div class="row">
+					<div class="productName"> Carrelage sols ATLANTA nuancé satiné 40,8 x 40,8 cm</div>
+				</div>
+				<div class="row">
+					<div class="productDetail"><a href="#" class="bold">Details produit</a></div>
+				</div>
+				
+				<div class="row" style="margin-top: 40px;">
+				<div style="width: 100%;"><label class="style" for="number">Quantité (m²)</label></div>
+					<div class="productQuantity col-4">
+						<span id="moins">-</span>
+						<input type="tel" id="number" value="1" disabled="disabled"></input>
+						<span id="plus">+</span>
+					</div>
+					<div class="col-8">
+						<input type="text" value="12" id="resultat">euros</input>
+						<p id="small"> soit 12 euros le m²</p>
+					</div>
+				</div>
+				<div class="row"> 
+					<button id="validate"> Ajouter au panier </button>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="container" style="background-color: lightgrey; margin-top: 50px;">
+		<div class="row">
+			<div class="col-12"> <h2> Detail produit</h2></div>
+		</div>
+		<div class="row">
+			<div class="col-6"> 		
+				<span>Un carrelage de sols en grés cérame émaillé, pour usage modéré à fréquent, proposé dans 3 teintes neutres actuelles sur une finition nuancé satiné, idéal pour une ambiance sobre. </span>
+			</div>
+		</div>
+		<div class="row" style="padding-top:15px;">
+			<div class="col-6">
+				<span class="bold"> Description detaillee </span>
+				<ul>
+					<li> Type : Carrelage de sol</li>
+					<li> Coloris : Beige, gris ou taupe</li>
+					<li> Matériau : Grès cérame émaillé</li>
+					<li> Aspect : Nuancé satiné</li>
+					<li> Dimensions : H 40,8 x L 40,8 cm</li>
+					<li> Epaisseur : 8,5 mm</li>
+					<li> Carrelage pour usage modéré (Groupe 3): taupe à usage fréquent (Groupe 4): beige et gris.</li>
+					<li> Norme ISO : Bla</li>
+					<li> Conditionnement : Boîte de 6 carreaux (1 m²)</li>
+				<ul>
+			</div>
+		</div>
+	</div>
+	 <script type="text/javascript" src="quantity.js"></script>
+</body>
+</html>
